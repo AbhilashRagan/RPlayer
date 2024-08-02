@@ -1,0 +1,87 @@
+.background
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.homecontents
+{
+    position : absolute;
+    top : 15px;
+    left : 50%;
+    transform : translate(-50%, 0%);
+    display : block;
+    justify-content : center;
+    text-align : center;
+    height : 95vh;
+}
+
+.homecontents input
+{
+    font-size : 28px;
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background : white;
+    color : black;
+    padding : 15px;
+    padding-left : 65px;
+    width : 600px;
+    border : none;
+    outline : none;
+    text-decoration : none;
+}
+
+.homecontents .searchbar
+{
+    position : relative;
+}
+
+.homecontents .searchbar .searchicon
+{
+    height : 40px;
+    width : 40px;
+    position : absolute;
+    top : 15px;
+    left : 10px;
+}
+
+.homecontents .searchbar .searchresult
+{
+    width : 650px;
+    height : 300px;
+    background : white;
+    padding : 15px;
+    display : block;
+    overflow : scroll;
+}
+
+.searchresult::-webkit-scrollbar
+{
+    width : 0px;
+}
+
+.searchresult .elem
+{
+    box-shadow : 0px 0px 15px 1px rgb(102, 102, 102);
+    padding : 5px;
+    display : flex;
+    align-items : center;
+    text-wrap : nowrap;
+    overflow-x : hidden;
+}
+
+.elem:hover
+{
+    cursor : pointer;
+}
+
+.searchresult .elem img
+{
+    height : 100px;
+    width : 100px;
+}
+
+.searchresult .elem h1
+{
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size : 24px;
+}

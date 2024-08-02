@@ -1,0 +1,111 @@
+body
+{
+    padding : 0px;
+    margin : 0px;
+    overflow : hidden;
+}
+
+.background
+{
+    height : 100vh;
+    width : 100vw;
+}
+
+.logincontents
+{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    padding : 10px;
+    padding-left : 40px;
+    padding-right : 40px;
+    border : none;
+    box-shadow : 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+    display : block;
+    justify-content : center;
+    align-items : center;
+    text-align : center;
+}
+
+.logincontents h1
+{
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size : 64px;
+    color : white;
+}
+
+.logincontents input[type = "text"]
+{
+    font-size : 24px;
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding : 10px;
+    padding-left : 25px;
+    width : 350px;
+    color : black;
+    border : 2px solid white;
+    outline : none;
+}
+
+.logincontents input[type = "password"]
+{
+    font-size : 24px;
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding : 10px;
+    padding-left : 25px;
+    width : 350px;
+    color : black;
+    border : 2px solid white;
+    outline : none;
+}
+
+.logincontents input[type = "submit"]
+{
+    font-size : 32px;
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight : 500;
+    padding : 20px;
+    padding-left : 30px;
+    padding-right : 30px;
+    background-color : white;
+    border : none;
+}
+
+.logincontents input[type = "submit"]:hover
+{
+    cursor : pointer;
+}
+
+.logincontents .email
+{
+    display : block;
+    text-align : left;
+    justify-content : left;
+}
+
+.logincontents .password
+{
+    display : block;
+    text-align : left;
+    justify-content : left;
+}
+
+.logincontents p
+{
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size : 16px;
+    color : red;
+}
+
+.logincontents a
+{
+    font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size : 16px;
+    color : white;
+    text-decoration : underline;
+}
+
+.logincontents a:hover
+{
+    cursor : pointer;
+}
